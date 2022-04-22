@@ -1,10 +1,9 @@
 package com.Classwork.Classwork_20April;
-
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Main {
+public class Mail {
 
     public static void main(String[] args) {
 

@@ -1,3 +1,4 @@
+
 package com.Classwork.Classwork_20April;
 
 import java.util.Objects;
@@ -33,7 +34,7 @@ public class Person {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
+        com.Classwork.Classwork_20April.Person person = (com.Classwork.Classwork_20April.Person) o;
         return age == person.age && Objects.equals(name, person.name);
     }
 

@@ -21,7 +21,6 @@ public class Main {
                 System.out.println("You can go!");
                 System.out.println("Ordinal : " + TrafficSignal.GREEN.ordinal());
                 break;
-
             }
             case YELLOW: {
                 System.out.println("Be ready");
