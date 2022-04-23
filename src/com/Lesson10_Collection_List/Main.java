@@ -21,7 +21,6 @@ public class Main {
 
             System.out.println("Enter word retry");
             input = scanner.nextLine();
-
             }
 
         if (input.length() > 5) {

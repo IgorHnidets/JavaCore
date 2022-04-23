@@ -20,6 +20,7 @@ public class Main {
             String word = matcher.group();
             if(word.toLowerCase().startsWith("a"));
             System.out.println(word);
+
         }
     }
 }
