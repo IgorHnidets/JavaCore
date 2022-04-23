@@ -1,4 +1,4 @@
-package com.Classwork.Classwork_22April;
+package com.Lesson10_Collection_List.Classwork_22April;
 
 import java.util.ArrayList;
 import java.util.Scanner;
