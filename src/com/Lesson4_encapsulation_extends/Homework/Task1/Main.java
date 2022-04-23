@@ -7,13 +7,13 @@ public class Main {
     public static void main(String[] args) {
         Robot robot = new Robot();
         robot.work();
-        CoffeRobot coffeRobot = new CoffeRobot();
+        CoffeeRobot coffeRobot = new CoffeeRobot();
         coffeRobot.work();
         RobotDancer robotDancer = new RobotDancer();
         robotDancer.work();
         RobotCoocker robotCoocker = new RobotCoocker();
         robotCoocker.work();
-        Robot[] objects = new Robot[]{new Robot(), new CoffeRobot(), new RobotDancer(), new RobotCoocker()};
+        Robot[] objects = new Robot[]{new Robot(), new CoffeeRobot(), new RobotDancer(), new RobotCoocker()};
         System.out.println('\n');
 
         for(int i = 0; i < objects.length; ++i) {
