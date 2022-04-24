@@ -1,4 +1,4 @@
-package com.Lesson2_Arrays;
+package com.Lesson2_Arrays.Task1;
 
 public class Main {
 
