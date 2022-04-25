@@ -1,6 +1,6 @@
 package com.Lesson2_Arrays.Task1;
 
-public class Main {
+public class Divide14 {
 
     public static void main(String[] args) {
 

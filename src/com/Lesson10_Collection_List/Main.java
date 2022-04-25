@@ -10,23 +10,35 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
+        ArrayList<String> counter = new ArrayList<>();
+        ArrayList<String> result = new ArrayList<>();
 
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Please enter word: ");
         String input = scanner.nextLine();
 
         while (!input.equals("Break")) {
             list.add(input);
-
             System.out.println("Enter word retry");
             input = scanner.nextLine();
             }
 
-        if (input.length() > 5) {
-            System.out.println("More than 5: " + input.length());
+        String prefix = "s";
+        for (String s:list) {
+            if (s.startsWith(prefix)) {
+                counter.add(s);
+            }
+            System.out.println("Start with s" + counter);
 
-            System.out.println("All your words" + list);
-        }
+//        for (String f:list) {
+//            if (f.length()>5) {
+//                counter.add(f);
+//            }
+//
+//        }
+//        System.out.println("All your words" + list);
+//        System.out.println("Have more than 5 :" + counter);
     }
 }
+}
+
