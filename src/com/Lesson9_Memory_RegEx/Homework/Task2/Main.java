@@ -15,12 +15,12 @@ public class Main {
 
         System.out.println("Enter your email : ");
         Scanner scanner = new Scanner(System.in);
-        String em = scanner.nextLine();
+        String email = scanner.nextLine();
 
-        while (!em.isEmpty()) {
-            list.add(em);
-            System.out.println("Enter word retry");
-            em = scanner.nextLine();
+        while (!email.isEmpty()) {
+            list.add(email);
+            System.out.println("Enter email retry");
+            email = scanner.nextLine();
         }
 
         String end = "gmail.com";
