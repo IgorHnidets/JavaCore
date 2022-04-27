@@ -1,4 +1,4 @@
-package com.Lesson10_Collection_List;
+package com.Lesson10_Collection_List.Homework;
 
 
 import java.util.ArrayList;
@@ -10,8 +10,8 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
-//        ArrayList<String> counter = new ArrayList<>();
-        ArrayList<String> count = new ArrayList<>();
+        ArrayList<String> counter = new ArrayList<>();
+//        ArrayList<String> count = new ArrayList<>();
 //        ArrayList<String> result = new ArrayList<>();
 
         Scanner scanner = new Scanner(System.in);
@@ -22,23 +22,21 @@ public class Main {
             list.add(input);
             System.out.println("Enter word retry");
             input = scanner.nextLine();
-
-//            String prefix = "s";
-//            for (String s : list) {
-//                if (s.startsWith(prefix)) {
-//                    counter.add(s);
-//                }
-//            }
-                    String end = "@mail.ru";
-                    for (String s1 : list) {
-                        if (s1.endsWith(end)) {
-                            count.add(s1);
-                        }
-                    }
         }
-        System.out.println("Russian email : " + count);
-
-//            System.out.println("Start with s" + counter);
+//        String end = "@mail.ru";
+//        for (String s1 : list) {
+//            if (s1.endsWith(end)) {
+//                count.add(s1);
+//            }
+//        }
+//        System.out.println("Russian email : " + count);
+            String prefix = "s";
+            for (String s : list) {
+                if (s.startsWith(prefix)) {
+                    counter.add(s);
+                }
+            }
+            System.out.println("Start with s" + counter);
 
 //        for (String f:list) {
 //            if (f.length()>5) {

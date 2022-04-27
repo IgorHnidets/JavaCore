@@ -1,4 +1,4 @@
-package com.Lesson2_Arrays;
+package com.Lesson2_Arrays.Task6;
 
 public class ArraySubtraction {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.Lesson2_Arrays;
+package com.Lesson2_Arrays.Task4;
 
 public class MaxMin {
     public static void main(String[] args) {
