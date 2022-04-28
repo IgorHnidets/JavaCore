@@ -1,4 +1,4 @@
-package com.Lesson11;
+package com.Lesson11_Interator_Comparator.Classwork;
 
 import java.util.Comparator;
 import java.util.Objects;
@@ -54,7 +54,6 @@ public class Product implements Comparable<Product> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Product product = (Product) o;
-        return
         return Double.compare(product.price, price) == 0 && idcode == product.idcode && Objects.equals(name, product.name) && Objects.equals(departament, product.departament);
     }
 
@@ -74,10 +73,10 @@ public class Product implements Comparable<Product> {
     }
 
     @Override
-    public int compareTo(Product p) {
-        int result = this.name.compareTo(p.name);
+    public int compareTo(Product o) {
+        int result = this.name.compareTo(o.name);
         if (result == 0) {
-            result = (int)(this.price - p.price);
+            result = (int)(this.price - o.price);
 
         }
         return result;
@@ -89,7 +88,7 @@ public class Product implements Comparable<Product> {
             public int compare(Product o1, Product o2) {
                 return o2.getDepartament().compareTo(o1.getDepartament());
             }
-        }
+        };
         return departmentC;
     }
     public static  Comparator<Product> priceC() {
