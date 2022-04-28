@@ -7,7 +7,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Main {
-
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         ArrayList<String> counter = new ArrayList<>();
@@ -42,7 +41,6 @@ public class Main {
 //            if (f.length()>5) {
 //                counter.add(f);
 //            }
-//
 //        }
 //        System.out.println("All your words" + list);
 //        System.out.println("Have more than 5 :" + counter);
