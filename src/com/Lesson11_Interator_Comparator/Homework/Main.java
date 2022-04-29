@@ -1,3 +1,4 @@
+//  Посортувати за назвою,довжиною,шириною,вагою.Виводимо і-ті елементи колекції, допоки не введемо Exit
 package com.Lesson11_Interator_Comparator.Homework;
 
 import java.util.*;
