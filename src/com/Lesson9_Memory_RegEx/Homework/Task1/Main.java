@@ -28,7 +28,6 @@ public class Main {
             if(a.startsWith(prefix)){
                 counter.add(a);
             }
-
         }
 
         System.out.println(list);
