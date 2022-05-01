@@ -1,5 +1,6 @@
+//Користувач з консолі має вводити слова доти, доки не введе “break”, всі слова записуються в List. Написати функцію для :
+//● виведення користувачу всіх слова, які він ввів! ● виведення слів, які починаються на “s”! ● виведення слів, які мають кількість букв більше ніж 5!
 package com.Lesson10_Collection_List.Homework;
-
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -29,6 +30,9 @@ public class Main {
 //            }
 //        }
 //        System.out.println("Russian email : " + count);
+
+
+
             String prefix = "s";
             for (String s : list) {
                 if (s.startsWith(prefix)) {
@@ -36,6 +40,8 @@ public class Main {
                 }
             }
             System.out.println("Start with s" + counter);
+
+
 
 //        for (String f:list) {
 //            if (f.length()>5) {

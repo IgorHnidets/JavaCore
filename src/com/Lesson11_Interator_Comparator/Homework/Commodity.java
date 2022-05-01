@@ -75,12 +75,12 @@ public class Commodity implements Comparable<Commodity>{
 
     @Override
     public int compareTo(Commodity o) {
-        int result = this.name.compareTo(o.name);
+    int result = this.name.compareTo(o.name);
         if (result == 0) {
-            result = (int)(this.lenght - o.lenght);
-        }
-        return result;
+        result = (int)(this.lenght - o.lenght);
     }
+        return result;
+}
 
     //    public static Comparator<Commodity> departmentL() {
 //        Comparator<Commodity> departmentL = new Comparator<Product>() {
