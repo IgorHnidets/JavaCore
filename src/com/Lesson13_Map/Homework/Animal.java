@@ -1,4 +1,4 @@
-package com.Lesson13.Map.Homework;
+package com.Lesson13_Map.Homework;
 
 public class Animal {
     String type;

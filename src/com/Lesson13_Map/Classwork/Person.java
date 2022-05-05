@@ -1,17 +1,17 @@
-package com.Lesson13.Map.Classwork;
+package com.Lesson13_Map.Classwork;
 
-public class Account {
+public class Person {
     Integer id;
     String name;
 
-    public Account(Integer id, String name) {
+    public Person(Integer id, String name) {
         this.id = id;
         this.name = name;
     }
 
     @Override
     public String toString() {
-        return "Account{" +
+        return "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
