@@ -26,7 +26,7 @@ public class Main {
         System.out.println(Arrays.toString(appleClass.getConstructors()));
 
         Apple apple1 = appleClass.newInstance();
-        apple.setName("IPhone");
+        apple.setName("Mac");
         apple.setCount(50);
         apple.setId(123456);
         apple.setPrice(1000);

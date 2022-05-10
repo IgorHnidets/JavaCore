@@ -12,41 +12,6 @@ public class Main {
 
         List<Commodity> commodityList = new ArrayList<>(Arrays.asList(commodity1, commodity2, commodity3, commodity4));
 
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Please enter commodity element: ");
-        String input = scanner.nextLine();
-
-        while (!input.equals("Exit")) {
-            switch (input) {
-                case "1":
-                    System.out.println(commodity1);
-                    break;
-                case "2":
-                    System.out.println(commodity2);
-                    break;
-                case "3":
-                    System.out.println(commodity3);
-                    break;
-                case "4":
-                    System.out.println(commodity4);
-                    break;
-            }
-            System.out.println("Enter element retry");
-            input = scanner.nextLine();
-        }
-
-
-//        if (input.equals("1")) {
-//            System.out.println(commodity1);
-//        } else if (input.equals("2")) {
-//            System.out.println(commodity2);
-//        } else if (input.equals("3")) {
-//            System.out.println(commodity3);
-//        } else if (input.equals("4")) {
-//            System.out.println(commodity4); }
-
-
         System.out.println("Sorted name: ");
         Collections.sort(commodityList);
         show(commodityList);
@@ -62,6 +27,40 @@ public class Main {
         System.out.println("Sorted by Weight: ");
         Collections.sort(commodityList, Commodity.weightC());
         show(commodityList);
+
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Please enter commodity element: ");
+//        String input = scanner.nextLine();
+
+//        while (!input.equals("Exit")) {
+//            switch (input) {
+//                case "1":
+//                    System.out.println(commodity1);
+//                    break;
+//                case "2":
+//                    System.out.println(commodity2);
+//                    break;
+//                case "3":
+//                    System.out.println(commodity3);
+//                    break;
+//                case "4":
+//                    System.out.println(commodity4);
+//                    break;
+//            }
+//            System.out.println("Enter element retry");
+//            input = scanner.nextLine();
+//        }
+
+
+//        if (input.equals("1")) {
+//            System.out.println(commodity1);
+//        } else if (input.equals("2")) {
+//            System.out.println(commodity2);
+//        } else if (input.equals("3")) {
+//            System.out.println(commodity3);
+//        } else if (input.equals("4")) {
+//            System.out.println(commodity4); }
     }
 
     private static void show(List<Commodity> commodities) {
