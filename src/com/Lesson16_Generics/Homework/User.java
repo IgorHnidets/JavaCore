@@ -1,4 +1,4 @@
-package com.Lesson16_Generics;
+package com.Lesson16_Generics.Homework;
 
 public class User {
     public String name;

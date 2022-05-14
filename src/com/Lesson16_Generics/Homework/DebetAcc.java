@@ -1,6 +1,6 @@
-package com.Lesson16_Generics;
+package com.Lesson16_Generics.Homework;
 
-public class DebetAcc extends Account{
+public class DebetAcc extends Account {
 
     Integer id;
 

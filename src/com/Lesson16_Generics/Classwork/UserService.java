@@ -1,4 +1,4 @@
-package com.Lesson16_Generics;
+package com.Lesson16_Generics.Classwork;
 
 public interface UserService <T extends  User, Account>{
 

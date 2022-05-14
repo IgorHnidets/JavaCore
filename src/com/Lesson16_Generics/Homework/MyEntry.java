@@ -1,11 +1,11 @@
-package com.Lesson16_Generics;
+package com.Lesson16_Generics.Homework;
 
 import java.util.List;
 
-public class TestUserService implements UserService<User,Account<Integer>>{
+public class MyEntry implements UserService<User, Account<Integer>> {
     List<User> users;
 
-    public TestUserService() {
+    public MyEntry() {
     }
     @Override
     public void showAllUsers(){
