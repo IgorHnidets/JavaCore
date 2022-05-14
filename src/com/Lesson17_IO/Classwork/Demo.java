@@ -1,4 +1,4 @@
-package com.Lesson17_IO;
+package com.Lesson17_IO.Classwork;
 
 import java.io.Serializable;
 

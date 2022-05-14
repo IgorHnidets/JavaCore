@@ -1,4 +1,4 @@
-package com.Lesson17_IO;
+package com.Lesson17_IO.Classwork;
 
 import java.io.*;
 
@@ -7,16 +7,16 @@ public class Main {
     public static void main(String[] args) {
         Demo object = new Demo(1,"iotest");
         String filename = "file.ser";
-
+//      Serealization
         try {
 //            save object in file
-            FileOutputStream fileOutputStream = new FileOutputStream("E://Output.txt");
-            ObjectOutputStream out = new ObjectOutputStream(fileOutputStream);
+            FileOutputStream file = new FileOutputStream("E://Output.txt");
+            ObjectOutputStream out = new ObjectOutputStream(file);
 //            method for serelialization of object
             out.writeObject(object);
 
             out.close();
-            fileOutputStream.close();
+            file.close();
 
             System.out.println("Object has been sereliazed.txt");
         }
