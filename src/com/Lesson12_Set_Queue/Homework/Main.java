@@ -1,3 +1,8 @@
+//Створити клас (будь який), описати в ньому мінімум два поля, одне з яких
+//String, інше числове (довільно яке). Створити в мейн методі Set.
+//Наповнити його об’єктами даного класу.
+// Вивести спершу невідсортований список, потім відсортований на
+//консоль(використати Comparable для сортування за цими полями);
 package com.Lesson12_Set_Queue.Homework;
 
 import com.Lesson11_Interator_Comparator.Homework.Commodity;
@@ -5,6 +10,7 @@ import com.Lesson11_Interator_Comparator.Homework.Commodity;
 import java.util.*;
 
 public class Main {
+
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -23,6 +29,7 @@ public class Main {
     }
     private static Set<Order> task1() {
     Set<Order> orders = new TreeSet<>();
+//    Queue<Order> orders = new PriorityQueue<>();
 
     boolean IfContinue = true;
 
@@ -44,6 +51,7 @@ public class Main {
     private static void show(List<Order> orders) {
         for (Order order: orders) {
             System.out.println(order);
-        }}
+        }
+    }
     }
 

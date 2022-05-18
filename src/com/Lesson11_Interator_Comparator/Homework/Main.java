@@ -28,6 +28,9 @@ public class Main {
         Collections.sort(commodityList, Commodity.weightC());
         show(commodityList);
 
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Please enter commodity element: ");
+//        String input = scanner.nextLine();
 
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.print("Please enter commodity element: ");

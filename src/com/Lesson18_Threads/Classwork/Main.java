@@ -1,6 +1,5 @@
-package com.Lesson18_Threads;
+package com.Lesson18_Threads.Classwork;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.Lesson18_Threads;
+package com.Lesson18_Threads.Classwork;
 
 import java.util.List;
 
