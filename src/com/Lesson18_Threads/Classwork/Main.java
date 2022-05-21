@@ -1,5 +1,8 @@
-package com.Lesson18_Threads.Classwork;
+package com.Lesson18_Threads;
 
+import com.Lesson18_Threads.Classwork.PeopleQueue;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

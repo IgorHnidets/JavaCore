@@ -15,30 +15,27 @@ public class myThread extends Thread{
     }
 
 
-//    @Override
-//    public void run(){
-//
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Enter arraylenght : ");
-//        arraylenght = scanner.nextInt();
-//
-//
-//        System.out.print(f1+" "+f2+" ");
-//        for (int i = 3; i <=arraylenght; i++) {
-//            f3 = f1 + f2;
-//            System.out.print(f3 +" ");
-//            f1 = f2;
-//            f2 = f3;
-//
-//            for ( int i = 5 ; i >= arraylenght ; i-- ) {
-//                System.out.println( i );
-//            }
-//
-//            try {
-//                sleep(1000);
-//            } catch (InterruptedException e ){
-//                e.printStackTrace();
-//            }
-//        }
-//    }
+    @Override
+    public void run(){
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter arraylenght : ");
+        arraylenght = scanner.nextInt();
+
+
+        System.out.print(f1+" "+f2+" ");
+        for (int i = 3; i <=arraylenght; i++) {
+            f3 = f1 + f2;
+            System.out.print(f3 +" ");
+            f1 = f2;
+            f2 = f3;
+
+
+            try {
+                sleep(1000);
+            } catch (InterruptedException e ){
+                e.printStackTrace();
+            }
+        }
+    }
 }
