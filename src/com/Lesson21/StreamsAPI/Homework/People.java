@@ -1,19 +1,16 @@
-package com.Lesson21.StreamsAPI;
+package com.Lesson21.StreamsAPI.Homework;
 
-import java.util.Date;
 import java.util.Objects;
 
-public class Person implements Comparable<Person>{
+public class People {
     private String name;
     private int age;
-    private Date timeStamp;
+    private String sex;
 
-    public Person() {
-    }
-
-    public Person(String name, int age) {
+    public People(String name, int age, String sex) {
         this.name = name;
         this.age = age;
+        this.sex = sex;
     }
 
     public String getName() {
@@ -32,38 +29,34 @@ public class Person implements Comparable<Person>{
         this.age = age;
     }
 
-    public Date getTimeStamp() {
-        return timeStamp;
+    public String getSex() {
+        return sex;
     }
 
-    public void setTimeStamp(Date timeStamp) {
-        this.timeStamp = timeStamp;
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
-        return age == person.age && Objects.equals(name, person.name) && Objects.equals(timeStamp, person.timeStamp);
+        People people = (People) o;
+        return age == people.age && Objects.equals(name, people.name) && Objects.equals(sex, people.sex);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, age, timeStamp);
+        return Objects.hash(name, age, sex);
     }
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "People{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                ", timeStamp=" + timeStamp +
+                ", sex='" + sex + '\'' +
                 '}';
     }
 
-    @Override
-    public int compareTo(Person person){
-        return this.getAge()-person.getAge();
-    }
 }
